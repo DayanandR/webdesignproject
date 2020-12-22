@@ -1,0 +1,233 @@
+body {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #6ad523);
+  background-size: 700% 600%;
+ 
+	animation: gradient 18s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 25%;
+  }
+ 
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+ 
+.top{
+  font-style: courier ;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+  line-height: 70px;
+  font-size: 40px;
+}
+.top a{
+
+color: #ff7733;
+text-shadow: 0px 1px 2px  #f1b085;
+  text-decoration: none;
+  margin-right :25px;
+  margin-left: 10px;
+  border-radius: 50px;
+       text-align: center;
+  font-size:40px;
+  background-attachment: fixed;
+ 
+}
+.top a:hover{
+background-color: none;
+/* color:rgba(88, 89, 90, 1.9);*/
+color: #1a1212d8;
+/* transition-duration: 0.2s;*/
+ transition-duration: 0.4s;
+  transition-delay: 100ms;
+  transform: translateY(6px);
+  filter:contrast(2);
+  
+
+text-shadow: 2px 2px 4px  #fd8e44;
+}
+html{
+scroll-behavior: smooth;
+}
+
+      .textbox {
+     
+      margin-left: 400px;
+      width: 400px;
+      
+      float:center;
+      overflow:hidden;
+      font-size: 20 px;
+      padding: 8px 0;
+      
+      border-bottom: 2px  solid 	#FF8C00;
+      }
+     
+ /* for registration page*/
+      .pass {
+     
+        margin-left: 350px;
+        width: 100%;
+        
+        float:center;
+        overflow:hidden;
+        font-size: 20 px;
+        padding: 8px 0;
+        }
+      .pass .fas {
+        color:#FF8C00;
+        overflow:hidden;
+        font-size: 30px;
+        margin-right: 40px;
+      }
+      .pass .fas:hover {
+          transition-duration: 0.4s;
+  transition-delay: 100ms;
+  transform: translateY(-8px);
+      }
+
+      .register-box{
+     
+        justify-content: center;
+          width: 40%;
+          position: absolute;
+         
+          color: white;
+          padding:40px;
+        white-space: nowrap;
+        
+        }
+       
+      .register-box input{
+	    
+       
+      border:none;
+      outline: none;
+      background: none;
+      line-height: 40px;
+     /* color: rgb(255, 153, 0 
+	 box-shadow:    0 0 25px blue;*/
+      font-family: 'Spectral';
+      font-weight: bold;
+      font-size: 25px;
+      float: center ;
+      width:500px;
+      border-bottom: 2px  solid 	#ff9100;
+      
+	   
+      } 
+
+      :placeholder-shown{
+        color: rgb(0,0,0,0.5);
+        font-family: 'Acme';
+      }
+
+
+      .rgister-box a{
+        color: #FF8C00;
+        border-radius: 20px;
+        margin-right: 100px;
+      }
+        #relog a{
+            color:blue;
+            
+            font-weight: heavy;
+            padding:10px;
+          
+          }
+          #relog {
+          
+            font-size: 28px;
+           padding-left: 10px;
+            color:rgb(4, 136, 4);
+           display:inline-block;
+          
+          }
+         
+         #relog a:hover{
+           color: #FF8C00;
+           transition-duration: 0.3s;
+
+         }
+        
+         .button{
+          text-transform: uppercase;
+          text-align: center;
+          display:inline-flex;
+          font-weight: bold;
+          background: none;
+          border: none;
+          cursor:pointer;
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          margin: 4px 2px;
+          cursor: pointer;
+          width: 100%;
+          
+          border-radius: 25px;
+         color:black;
+          width:400px;
+          line-height:20px;
+          padding:20px;
+          font-family:sans-serif;
+          font-size: 25px;
+          font-weight:bold;
+           background:none;
+          
+          }
+
+          
+.button2{
+  border-radius: 25px;
+  display: inline block;
+  text-transform: uppercase;
+  text-decoration: none;
+color:black;
+width:400px;
+line-height:25px;
+margin-top: 20px;
+padding:20px;
+font-family:sans-serif;
+font-size: 20px;
+font-weight:bold;
+ background:none;
+text-align:center;
+outline:none;
+cursor:pointer;
+}
+      .button2:hover{
+      
+      box-shadow: 0 0 10px #ff7513,0 0 30px #ff7513,0 0 50px #d6b69f;
+      color:white;
+       transform: translateY(8px);
+      transition-duration: 0.5s;
+      transition-delay: 200ms;
+      background:#FF6700;
+     
+    
+      }
+
+      .button:hover{
+        box-shadow: 0 0 10px #ff7513,0 0 30px #ff7513,0 0 50px #ff7513;
+        color: white;
+        transition-duration: 0.5s;
+        transition-delay: 150ms ;
+       border:none;
+       transform: translateY(8px);
+
+      background:#FF6700
+
+      }
+

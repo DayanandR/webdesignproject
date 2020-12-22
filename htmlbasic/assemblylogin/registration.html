@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+register.. online assembly learning
+</title>
+<link rel="stylesheet" href="reg.css" type="text/css" >
+
+<script src="https://kit.fontawesome.com/76b626d43d.js" crossorigin="anonymous"></script>
+
+<script src="script2regvalidate.js"></script>
+<link rel="icon" href="login.png" type="image/icon type">
+ <meta charset="UTF-8" /> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<nav id="onmouse">
+            
+      <div class="top" >
+         <a href="file:///C:/Users/cw/Desktop/htmlbasic/assemblylogin/firstpage.html"><i class="fas fa-home">Home </i>  </a>
+         <a href=""><i class="fas fa-book-open">e-books</i></a>
+       <a href="">Library</a>
+       <a href ="">8086 examples</a>
+      
+      </div>
+      
+   </nav>  
+<div class="register-box">
+
+
+<div class="pass"><i class="fas fa-envelope-square"></i><input id="mail"   type="email" placeholder=" Enter your valid Email" name ="Email" value="" required></div>
+ 
+ <div  class="pass"><i class="fas fa-signature"></i><input id="firname" onclick="validatemail()"  type="text" placeholder=" firstname" name="firstname" value="" required></div>
+
+<div  class="pass"><i class="fas fa-signature"></i><input id="lasname"  onclick="validatefname()" type="text" placeholder=" lastname" name="lastname" value="" required></div>  
+
+<div  class="pass"><i class="fas fa-phone-alt"></i><input id="contact"  onclick="validatelname()" type="text" placeholder=" mobile number" name="contact" value="" required></div>  
+
+<div  class="pass"><i class="fas fa-unlock-alt"></i> <input id="onepass" onclick="validatecontact()" type="password" placeholder=" password" name="" value=""  minlength="8" required></div> 
+
+ <div class="pass"><i class="fas fa-unlock"></i><input id="twopass" onclick="validatepass()"  type="password" placeholder=" confirm password" name="firstname" value=""  minlength="8" required>
+</div>
+
+
+<div id="relog" > if already registered, sign in <i class="fa fa-user-o" aria-hidden="true"></i>
+      <a href="file:///C:/Users/cw/Desktop/htmlbasic/assemblylogin/login.html">here</a> </div>
+<div class="buttn"><a href="#">
+    <input class="button" type="button" onclick="validatereg()" name="Submit" value="Submit"></a>
+
+ <a href="file:///C:/Users/cw/Desktop/htmlbasic/assemblylogin/firstpage.html">
+   <input class="button2" type="button" name="not now" value="not now"></a></div>
+</div>
+ 
+
+
+ 
+ </body>
+</html>
